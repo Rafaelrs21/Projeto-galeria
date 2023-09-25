@@ -1,0 +1,9 @@
+//* O ~ serve para indicar que o import virá de dentro da pasta node_modules, 
+//* sem ele o import vai buscar nas pastas normais
+
+@import "~bootstrap/scss/bootstrap";
+
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+@import "custom";
